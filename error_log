@@ -1,0 +1,2 @@
+[14-Sep-2021 08:03:17 UTC] PHP Fatal error:  Cannot declare class CreatePersonalAccessTokensTable, because the name is already in use in /home/altaurhz/kolian.altaneri.com/database/migrations/2021_09_14_080258_create_personal_access_tokens_table.php on line 7
+[14-Sep-2021 08:08:17 UTC] PHP Fatal error:  Cannot declare class CreatePersonalAccessTokensTable, because the name is already in use in /home/altaurhz/kolian.altaneri.com/database/migrations/2021_09_14_080258_create_personal_access_tokens_table.php on line 7

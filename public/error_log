@@ -1,0 +1,10 @@
+[22-Sep-2021 17:18:18 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/PostController.php:66
+Stack trace:
+#0 /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/PostController.php(66): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/altaurhz/...', 66, Array)
+#1 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\PostController->mangaRead(Object(Illuminate\Http\Request), '4')
+#2 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('mangaRead', Array)
+#3 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\PostController), 'mangaRead')
+#4 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/PostController.php on line 66
+[23-Sep-2021 12:23:29 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 9
+[23-Sep-2021 12:23:52 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 9
+[23-Sep-2021 12:24:00 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 9
