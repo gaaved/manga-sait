@@ -36,4 +36,8 @@ class Post extends Model
     {
         return $this->hasMany(Read::class);
     }
+    public function coments(): HasMany
+    {
+        return $this->hasMany(Coment::class);
+    }
 }

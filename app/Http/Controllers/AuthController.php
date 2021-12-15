@@ -33,8 +33,10 @@ class AuthController extends Controller
         }
 
         $user = new User();
+        $user->name = $validated['name'];
         $user->email = $validated['email'];
         $user->password = Hash::make($validated['password']);
+        $user->urlimg = 'https://kolian.altaneri.com/public/urlimg/defolt.jpg'; //дефолтная картинка
         $user->save();
 
         Auth::login($user);

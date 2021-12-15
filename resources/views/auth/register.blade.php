@@ -17,6 +17,7 @@
 
     <div id="main">
         <div class="alert alert-danger" role="alert" id="error" style="display: none">ERROR OCCURRED!</div>
+        <input id='name' type="name" placeholder="Your name" class="form-group"><br>
         <input id='email' type="email" placeholder="email@example.com" class="form-group"><br>
         <input id='password' type="password" placeholder="Your password" class="form-group"><br>
         <button class="btn btn-success" onclick="register()">Register</button>
@@ -30,11 +31,13 @@
         window.document.getElementById("error").style.display = 'none';
         document.getElementById('loader').style.display = 'block';
         document.getElementById('main').style.display = 'none';
+        let nam = window.document.getElementById('name').value;
         let ema = window.document.getElementById('email').value;
         let pass = window.document.getElementById('password').value;
         let http = new XMLHttpRequest();
         let url = '/register';
-        let params = JSON.stringify({email: ema, password: pass});
+        let params = JSON.stringify({name: nam, email: ema, password: pass});
+        console.log(params);
         http.open('POST', url, true);
         http.setRequestHeader('Content-type', 'application/json');
         http.setRequestHeader('Accept', 'application/json');

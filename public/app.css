@@ -1,0 +1,104 @@
+
+
+
+
+.chosen-choices{
+    outline: none; 
+}
+
+
+
+
+
+
+.clom{
+    background: #463935;
+}
+
+
+.dropbtn:after {
+  
+  content: "\2193";/*стрелка вниз */
+  position: absolute;
+  right: .6em;
+
+}
+
+.dropbtn:focus:after{
+    
+      content: "\2191";/*стрелка вверх */
+  
+  right: .6em;
+  background-color: white;
+}
+
+
+
+
+.dropbtn {
+   background-color: white;
+    color:#999;
+    min-width: 100%;
+    height:35px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: left;
+    outline: none; 
+    content: "\2193";/*стрелка вниз */
+   
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    border: 1px solid #999;
+    outline: none; 
+    width: 20px;
+    content: "\2193";/*стрелка вниз */
+}
+
+#myInput {
+    border-box: box-sizing;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    content: "\2193";/*стрелка вниз */
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    content: "\2193";/*стрелка вниз */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    content: "\2193";/*стрелка вниз */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    content: "\2193";/*стрелка вниз */
+}
+
+.dropdown a:hover {background-color: #ddd;
+  content: "\2193";/*стрелка вниз */
+}
+.how{display: block;}
+.show {display: block;}

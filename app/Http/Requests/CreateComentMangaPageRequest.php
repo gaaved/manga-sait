@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
 
-class CreatePostRequest extends FormRequest
+class CreateComentMangaPageRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,7 +25,10 @@ class CreatePostRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'comment' => ['required', 'string', 'min:3', 'max: 255']
+            'post_id' =>['required'],
+            'glava' =>['required'],
+            'page' =>['required'],
+            'coment' => ['required', 'string', 'min:3', 'max: 2000']
         ];
     }
 }

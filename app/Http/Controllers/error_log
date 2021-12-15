@@ -1,0 +1,4 @@
+[01-Oct-2021 05:29:40 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php on line 19

@@ -35,13 +35,10 @@ class UserController extends Controller
       $post[] = Post::
             where('id', $rea)->first()->toArray();
   }
-
-            
-
-       
+ $user = \Illuminate\Support\Facades\Auth::user(); 
           
           return view('myakk', [
-       'user2' => $user2],['post' => $post]
+       'user2' => $user2, 'user' => $user],['post' => $post]
        );
     }
       public function manga(Request $request): View
@@ -68,4 +65,41 @@ class UserController extends Controller
        'post' => $post],['read' => $read]
        );
     }
+    
+    
+    
+    
+         public function strangerakk(Request $request, $id): View
+    {
+        
+       
+        /** @var User $user */
+        $user2 = User::
+            where('id', $id)->first();
+         
+         
+        
+        $read = Read::
+            where('user_id', $id)->pluck('post_id')->toArray();
+         
+         
+         $post =[];
+         
+  foreach($read as $rea){
+      $post[] = Post::
+            where('id', $rea)->first()->toArray();
+  }
+
+         $user = \Illuminate\Support\Facades\Auth::user(); 
+          return view('myakk', [
+       'user2' => $user2, 'user' => $user],['post' => $post]
+       );
+    }
+    
+    
+    
+    
+    
+    
+    
 }

@@ -8,3 +8,32 @@ Stack trace:
 [23-Sep-2021 12:23:29 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 9
 [23-Sep-2021 12:23:52 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 9
 [23-Sep-2021 12:24:00 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 9
+[28-Sep-2021 10:02:55 UTC] PHP Fatal error:  Cannot use [] for reading in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 77
+[12-Oct-2021 09:44:44 UTC] PHP Fatal error:  Can't use function return value in write context in /home/altaurhz/kolian.altaneri.com/storage/framework/views/5ddae26ab2846284ad30913dd4d96acf93dc82c9.php on line 11
+[15-Nov-2021 11:32:16 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php:139
+Stack trace:
+#0 /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php(139): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/altaurhz/...', 139, Array)
+#1 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ComentController->setComentOtvet(Object(App\Http\Requests\CreateComentOtvetRequest))
+#2 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('setComentOtvet', Array)
+#3 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\ComentController), 'setComentOtvet')
+#4 /home/altaurhz/koli in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php on line 139
+[15-Nov-2021 11:32:40 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php:139
+Stack trace:
+#0 /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php(139): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/altaurhz/...', 139, Array)
+#1 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ComentController->setComentOtvet(Object(App\Http\Requests\CreateComentOtvetRequest))
+#2 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('setComentOtvet', Array)
+#3 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\ComentController), 'setComentOtvet')
+#4 /home/altaurhz/koli in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php on line 139
+[15-Nov-2021 11:32:45 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php:139
+Stack trace:
+#0 /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php(139): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/altaurhz/...', 139, Array)
+#1 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ComentController->setComentOtvet(Object(App\Http\Requests\CreateComentOtvetRequest))
+#2 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('setComentOtvet', Array)
+#3 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\ComentController), 'setComentOtvet')
+#4 /home/altaurhz/koli in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/ComentController.php on line 139
+[01-Dec-2021 09:52:13 UTC] PHP Fatal error:  Uncaught Error: Object of class Illuminate\Database\Query\JoinClause could not be converted to string in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/PostController.php:170
+Stack trace:
+#0 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(463): App\Http\Controllers\PostController->App\Http\Controllers\{closure}(Object(Illuminate\Database\Query\JoinClause))
+#1 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(521): Illuminate\Database\Query\Builder->join(Object(Illuminate\Database\Query\Expression), Object(Closure), NULL, NULL, 'left', false)
+#2 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(564): Illuminate\Database\Query\Builder->joinSub('select coment_i...', 'coment_likes2', Object(Closure), NULL, NULL, 'left')
+#3 /home/altaurhz/kolian.altaneri.com/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate\Data in /home/altaurhz/kolian.altaneri.com/app/Http/Controllers/PostController.php on line 170

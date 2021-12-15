@@ -1,2 +1,56 @@
 [14-Sep-2021 08:03:17 UTC] PHP Fatal error:  Cannot declare class CreatePersonalAccessTokensTable, because the name is already in use in /home/altaurhz/kolian.altaneri.com/database/migrations/2021_09_14_080258_create_personal_access_tokens_table.php on line 7
 [14-Sep-2021 08:08:17 UTC] PHP Fatal error:  Cannot declare class CreatePersonalAccessTokensTable, because the name is already in use in /home/altaurhz/kolian.altaneri.com/database/migrations/2021_09_14_080258_create_personal_access_tokens_table.php on line 7
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:15 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:48:38 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:49:07 America/New_York] PHP Warning:  Use of undefined constant int - assumed 'int' (this will throw an Error in a future version of PHP) in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:50:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/altaurhz/kolian.altaneri.com/tro.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:50:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/altaurhz/kolian.altaneri.com/tro.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:50:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/altaurhz/kolian.altaneri.com/tro.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:50:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/altaurhz/kolian.altaneri.com/tro.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:50:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/altaurhz/kolian.altaneri.com/tro.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
+[13-Dec-2021 11:52:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/altaurhz/kolian.altaneri.com/tro.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/altaurhz/kolian.altaneri.com/tro.php on line 8
